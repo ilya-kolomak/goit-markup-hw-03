@@ -293,6 +293,11 @@ color:var(--general-color);
 
  
 }
+.portfolio-image{
+  margin-top:50px;
+  margin-bottom:20px;
+}
+
 .portfolio-list{
   padding-bottom: 47px;
 }
@@ -306,7 +311,12 @@ color:var(--general-color)
 }
 
 .portfolio-text{
+margin-top:4px;
+padding-bottom:20px;
 font-size: 16px;
 line-height: 1.88px;
 color: var(--text-color);
+}
+.portfolio-top-text{
+ 
 }
