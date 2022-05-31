@@ -18,7 +18,11 @@ p,h1,h2,h3,h4,h5,h6{
   padding: 0;
 }
 
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 
+}
 
 ul,ol{
   margin: 0;
@@ -188,10 +192,7 @@ border-radius: 4px;
 
 }
 /* -------PLAN------- */
-.plan{
-  padding-top: 94px;
-  padding-bottom:47px;
-}
+
 
 .plan-item:not(:last-child){
   margin-right: 30px;
@@ -221,8 +222,7 @@ color: var(--text-color);
 }
 /*---------PRISE-----------  */
 .prise{
-  padding-top:47px;
-  padding-bottom:47px;
+  padding-top: 0;
 }
 
 .prise-list{
@@ -241,8 +241,7 @@ img{
 }
 /* -----------OUR-TEAM------------ */
 .our-team{
-  padding-top:47px;
-  padding-bottom: 47px;
+
   background: #F5F4FA;
 }
 .team-title{
@@ -337,6 +336,7 @@ color: var(--litter-color-white);
 }
 
 .footer-address{
+  display: block;
   margin-top: 9px;
   font-style:normal;
 }
@@ -346,11 +346,10 @@ color: var(--litter-color-white);
 .portfolio-top-list{
   display: flex;
   justify-content: center;
-  padding-top: 100px;
   margin-bottom:50px;
 }
 .portfolio-item{
-  margin-right: 30px;
+  margin-right: 8px;
   
 }
 .portfolio-btn.btn-all{
@@ -364,7 +363,6 @@ top: 174px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62px;
-  
   
   text-align: center;
   letter-spacing: 0.03em;
@@ -385,32 +383,21 @@ width: 145px;
 height: 38px;
 left: 712px;
 top: 174px;
-
-
 }
 
 .portfolio-btn:hover{
   color: var(--litter-color-white);
   background-color: var(--aсcent-color);
-
 }
 .portfolio-btn:focus{
   color: var(--litter-color-white);
   background-color: var(--aсcent-color);
-
 }
  .portfolio-link{
   text-decoration: none;
   color: var(--general-color);
- 
-
- 
 }
 
-
-.portfolio-list{
-  padding-bottom: 47px;
-}
 .portfolio-title{
 
 font-weight: 700;
@@ -420,6 +407,7 @@ letter-spacing: 0.06em;
 color:var(--general-color)
 }
 .portfolio-top-text{
+  display: block;
   padding: 20px 24px;
   border-right:1px solid #EEEEEE; 
   border-bottom: 1px solid #EEEEEE;
@@ -427,7 +415,7 @@ color:var(--general-color)
 }
 
 .portfolio-text{
-
+margin-top: 4px;
 font-size: 16px;
 line-height: 1.88;
 color: var(--text-color);
