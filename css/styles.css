@@ -348,7 +348,7 @@ color: var(--litter-color-white);
   justify-content: center;
   margin-bottom:50px;
 }
-.portfolio-item{
+.portfolio-item:not(:last-child){
   margin-right: 8px;
   
 }
